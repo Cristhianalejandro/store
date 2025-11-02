@@ -1,0 +1,26 @@
+POST http://localhost:5000/api/products
+Content-Type:  application/json
+
+{
+    "name": "car-buggati",
+    "price": 3.000000,
+    "image": "Nice-buggati-turbo-3000"
+}
+
+###
+DELETE http://localhost:5000/api/products/68f9720482a4081d66hgfhgfjnhgje
+Content-Type:  application/json
+
+###
+PUT http://localhost:5000/api/products/6903d772ddca32f431f8396e
+Content-Type:  application/json
+
+{
+    "name": "nike shoe",
+    "price": 20,
+    "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlrZSUyMHNob2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500"
+}
+
+###
+GET http://localhost:5000/api/products
+Content-Type:  application/json
